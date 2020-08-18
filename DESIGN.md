@@ -132,6 +132,7 @@ No matter what:
 * **Rules**: do the _Suggestion_ to better be able to see what we could/should do
 * **Config**: do the symlink for now and revisit fixing ULC later
 * **Mod Security Versions**: do 3.0 and 3.1 so we can get solid answers to what works/behaves with what
+   * **Update**: only 3.0 for now, see ZC-7374 description for details
 
 **Note**: _We are not going to support modsec 3 on CentOS 6 at this time._ Because it is becoming increasingly difficult to get new things to build on C6 and since we only support C6 on the current LTS. It is another incentive for people to update.
 
