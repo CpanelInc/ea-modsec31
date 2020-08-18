@@ -133,6 +133,8 @@ No matter what:
 * **Config**: do the symlink for now and revisit fixing ULC later
 * **Mod Security Versions**: do 3.0 and 3.1 so we can get solid answers to what works/bhevaies with what
 
+**Note**: _We are not going to support modsec 3 on CentOS 6 at this time._ Because it is becoming increasingly difficult to get new things to build on C6 and since we only support C6 on the current LTS. It is another incentive for people to update.
+
 ## Child Documents
 
 None.
