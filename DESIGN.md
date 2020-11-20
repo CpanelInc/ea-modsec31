@@ -118,7 +118,9 @@ Note: In order for both cnnectors to share the same rules, every rules RPM (usin
 No matter what:
 
 1. We’d need ea-apache24-mod_security2 and each ea-modsecNN library to conflict with each other.
-2. Since the apache connector is alpha mod sec 3.x needs to go in experimental (it is OK since `ea-nginx` is experimental too).
+2. Every version should own and install the `/etc/cpanel/ea4/modsecurity.version` file that contains the version without a trailing new line.
+3. Since the apache connector is alpha mod sec 3.x needs to go in experimental (it is OK since `ea-nginx` is experimental too).
+
 
 | Approach | Pros | Cons | Notes |
 |----------|------|------|-------|
